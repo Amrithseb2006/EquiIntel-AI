@@ -39,3 +39,13 @@ User Input → LeadAgent
             ↳ SummaryAgent
                 ↓
         Final report → PDF / HTML
+
+
+| Layer                   | Tools/Technologies                                                  |
+| ----------------------- | ------------------------------------------------------------------- |
+| **Data Fetching**       | `yfinance`, `NewsAPI`, `Yahoo Finance API`                          |
+| **LLM / Reasoning**     | `OpenAI GPT-4o`, `LangChain`                                        |
+| **Agent Orchestration** | `LangChain Agents`, `LangGraph` *(optional)*, `CrewAI` *(optional)* |
+| **Visualization**       | `matplotlib`, `seaborn`, `plotly`                                   |
+| **Export**              | `fpdf`, `jinja2`, `pdfkit` *(optional)*                             |
+| **RAG (Optional)**      | `LangChain + Pinecone + OCR` *(for transcripts)*                    |
